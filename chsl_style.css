@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #222831;
+}
+.subContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 90vmin;
+    width: 90vmax;
+    border-radius: 50%;
+}
+
+.questionNoDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50%;
+    background-color: #393E46;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: inset 0px 0px 20px #0f1c1c;
+}
+.questionNo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:15vmax;
+    height: 15vmax;
+    background-color: #EEEEEE;
+    border-radius: 50%;
+    min-width: fit-content;
+    min-height: fit-content;
+    font-size: 50px;
+    font-family: Impact;
+    
+}
+.optionDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 50%;
+    background-color: #526D82;
+    border-radius: 0px 0px 15px 15px;
+    box-shadow:inset 0px 0px 20px #151d22;
+}
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25vmin;
+    height: 10vmin;
+    background-color: #27374D;
+    margin: 3%;
+    border-radius: 15px;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    color: #B7C4CF;
+}
+.options:active{
+    background-color: rgb(120, 118, 118);
+    color: black;
+    box-shadow: inset 0px 0px 5px rgb(242, 237, 237);
+    transition: all 0.3s ease-in-out;
+    font-size: 45px;
+    scale: 1.1;
+}
+
+*{
+    -webkit-user-select: none;
+    -moz-user-select: none ;
+}
